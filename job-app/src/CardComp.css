@@ -1,0 +1,48 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-left: 4.2rem;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    background-color: darkorange;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot1 {
+    width: 8px;
+    height: 8px;
+    background-color: crimson;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.filter {
+    margin-left: 1rem;
+    margin-top: -0.5rem;
+    font-weight: 100;
+}
+
+.icon {
+    display: flex;
+    flex: 0.65;
+    margin-top: 2.3rem;
+    margin-left: 40rem;
+}
+
+@media screen and (min-width: 576px) {
+    .row {
+        display: flex;
+        flex-direction: row;
+        margin-left: -2rem;
+    }
+    .interest {
+        font-size: 10px;
+    }
+    .icon {
+        margin-left: -30rem;
+    }
+}
